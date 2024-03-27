@@ -1,0 +1,18 @@
+.heading {
+  width: 100%;
+  height: 100px;
+
+  background-color: #53c7b7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  * {
+    margin: 0px 2rem;
+  }
+}

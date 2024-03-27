@@ -1,0 +1,39 @@
+/* Estilos para Task.vue */
+
+.tarefa {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: darkred;
+  }
+
+  button:last-child {
+    background-color: green;
+  }
+
+  button:last-child:hover {
+    background-color: darkgreen;
+  }
+}
+
+.title-concluida {
+  color: green; /* Altera a cor do texto para verde */
+  text-decoration: line-through;
+}

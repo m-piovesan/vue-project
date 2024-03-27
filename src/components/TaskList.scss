@@ -1,0 +1,42 @@
+/* Estilos para TaskList.vue */
+
+.lista {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Mudança para direção de coluna para ocupar espaço verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  margin-top: 10px;
+  gap: 30px; /* Espaçamento entre os elementos */
+}
+
+.listagem1 {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre os elementos */
+
+  h2 {
+    color: #333; /* Cor do título */
+  }
+
+  input {
+    width: 30%;
+    padding: 10px; /* Ajuste para preenchimento interno */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+}
+
+.listagem {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    width: 100%;
+  }
+}
